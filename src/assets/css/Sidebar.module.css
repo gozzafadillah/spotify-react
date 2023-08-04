@@ -1,0 +1,23 @@
+.sidebar-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 280px;
+  height: 100%;
+  background-color: #363232;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.visible {
+  transform: translateX(0);
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+.toggle-btn {
+  margin-bottom: 10px;
+}
